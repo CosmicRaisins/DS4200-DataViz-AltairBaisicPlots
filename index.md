@@ -5,33 +5,24 @@ For this assignment, 3 basic visualizations for information related to Netflix m
 
 ### Submission 1: Simple Visulization
 
-This is a simple viz created with Altair.
+This is a simple viz created with Altair. It shows the number of Movies vs the
+number of TV Shows on Netflix as of Jan 2020.
+
 ![simpleViz](/images/simpleViz.png)
 
-Source:
-```markdown
-### simple visualization
 
-# creating viz
-alt.Chart(df).mark_bar().encode(
-    x = 'count()',
-    y = 'type',
-# setting viz title
-).properties(
-    title = "Number of Titles on Netflix by Types",
-    height = 200
-).configure_bar(
-    color = "#E50914",
-    height = 50
-)
-```
+### Submission 2: Histogram
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+This visualization shows that The distribution of movie lengths appears gaussian. We can see the signature bell-shaped curve fro the histrogram dispite some outliers. I chose the histogram for this visualization because it is commonly used to demonstrate the distribution of data.
 
-### Jekyll Themes
+X axis is is the duration of the movie, while the Y axis is the number of movies with that specific duration. Netflix's red is used for the bar for thematic purposes.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CosmicRaisins/basic-altair-viz/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![viz1](/images/viz1.png)
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Submission 3: Line Chart
+
+This visualization shows that The rate at which Netflix adds Titles to its platform stayed relativly flat from 2008 to 2013, saw significant increase from 2013 to 2017, and is graduly slowing down since. The data was cleaned and the rate of increase was calculated from calculating the derivatives. Originally, I plotted the graph using the number of titles added at each year. This was alter changed because it did not generate a intuitive visulization, leading to increased processing time, and possible false conclusions. The data from 2020 was removed because the year has not passed in full. I chose a line chart for this visualization because it is commonly used to showcase trend.
+X axis is is the year, while the Y axis is rate of increase of title adds. Netflix's red is again used for the line.
+
+![viz2](/images/viz2.png)
