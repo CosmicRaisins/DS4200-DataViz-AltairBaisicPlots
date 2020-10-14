@@ -2,6 +2,9 @@
 ​
 This repository is your starting point for the assignment and includes the instructions below.
 
+# Github Pages Link
+https://cosmicraisins.github.io/basic-altair-viz/
+
 # Aim of the assignment
 
 [Altair](https://altair-viz.github.io/) is a declarative statistical visualization library for Python, based on [Vega](http://vega.github.io/vega) and [Vega-Lite](http://vega.github.io/vega-lite). In this assignment, you are going to learn to create two basic visualizations using Altair.
