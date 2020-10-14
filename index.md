@@ -1,29 +1,29 @@
-## Welcome to GitHub Pages
+## DS4200 Information Visualization Assignment 5
 
-You can use the [editor on GitHub](https://github.com/CosmicRaisins/basic-altair-viz/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Assignment 5: Altair Basic Plots
+For this assignment, 3 basic visualizations for information related to Netflix movies and TV shows was created using the Altair library for python on Jupyter Notebook.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Submission 1: Simple Visulization
 
-### Markdown
+This is a simple viz created with Altair.
+![simpleViz](/images/simpleViz.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+Source:
 ```markdown
-Syntax highlighted code block
+### simple visualization
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+# creating viz
+alt.Chart(df).mark_bar().encode(
+    x = 'count()',
+    y = 'type',
+# setting viz title
+).properties(
+    title = "Number of Titles on Netflix by Types",
+    height = 200
+).configure_bar(
+    color = "#E50914",
+    height = 50
+)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
