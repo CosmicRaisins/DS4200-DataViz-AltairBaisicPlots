@@ -22,7 +22,10 @@ X axis is is the duration of the movie, while the Y axis is the number of movies
 
 ### Submission 3: Line Chart
 
-This visualization shows that The rate at which Netflix adds Titles to its platform stayed relativly flat from 2008 to 2013, saw significant increase from 2013 to 2017, and is graduly slowing down since. The data was cleaned and the rate of increase was calculated from calculating the derivatives. Originally, I plotted the graph using the number of titles added at each year. This was alter changed because it did not generate a intuitive visulization, leading to increased processing time, and possible false conclusions. The data from 2020 was removed because the year has not passed in full. I chose a line chart for this visualization because it is commonly used to showcase trend.
-X axis is is the year, while the Y axis is rate of increase of title adds. Netflix's red is again used for the line.
+This visualization shows that The rate at which Netflix adds Titles to its platform stayed relativly flat from 2008 to 2013, saw significant increase from 2013 to 2017, and is graduly slowing down since.
+
+The data was cleaned and the rate of increase was calculated from calculating the derivatives. Originally, I plotted the graph using the number of titles added at each year. This was alter changed because it did not generate a intuitive visulization, leading to increased processing time, and possible false conclusions. The data from 2020 was removed because the year has not passed in full. 
+
+I chose a line chart for this visualization because it is commonly used to showcase trend. X axis is the year, while the Y axis is rate of increase of title adds. Netflix's red is again used for the line.
 
 ![viz2](/images/viz2.png)
