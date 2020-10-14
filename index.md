@@ -15,7 +15,7 @@ number of TV Shows on Netflix as of Jan 2020.
 
 This visualization shows that The distribution of movie lengths appears gaussian. We can see the signature bell-shaped curve for the histrogram dispite some outliers. I chose the histogram for this visualization because it is commonly used to demonstrate the distribution of data.
 
-X axis is is the duration of the movie, while the Y axis is the number of movies with that specific duration. Netflix's red is used for the bar for thematic purposes.
+X axis is the duration of the movie, while the Y axis is the number of movies with that specific duration. Netflix's red is used for the bar for thematic purposes.
 
 ![viz1](/images/viz1.png)
 
